@@ -1,0 +1,299 @@
+@media screen and (min-width: 750px) {
+
+  .box {
+    width: 768px;
+  }
+
+  .photos {
+    display: none;
+  }
+  .photosecond {
+    display: inline;
+    margin-top: 140px;
+  }
+
+  .circle {
+    margin-left: 200px;
+  }
+
+  .header h1 {
+    font-size: 48px;
+    line-height: 48px;
+    width: 339px;
+    height: 96px;
+    text-align: center;
+    font-weight: 900;
+    margin: auto;
+  }
+
+  .header h2{
+    font-weight: 500;
+    font-style: 16px;
+    width: 457px;
+    height: 52px;
+  }
+
+  .donwloadbutton {
+    margin: 0;
+  }
+
+  .whatis {
+    margin: 0;
+    display: inline;
+    margin-left: 16px;
+    
+  }
+
+
+
+  .buttonss {
+    position: relative;
+    display: flex;
+    left: 50%;
+    transform: translateX(-25%);
+    margin-top: 32px;
+    
+  }
+
+  .fourphotos {
+    display: flex;
+    width: 689px;
+    margin: auto;
+    margin-top: 67px;
+  }
+
+  .fourphoto {
+    display: none;
+  }
+
+  .footer h1 {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    width: 445px;
+    height: 88px;
+    margin-top: 16px;
+
+  }
+
+  .footer h2 {
+    font-weight: 500;
+    font-style: 16px;
+    line-height: 26px;
+    width: 573px;
+    height: 78px;
+    margin-top: 32px;
+  }
+  .background {
+    background-image: url(./assets/Bitmap\ \(3\).svg);
+    background-repeat: no-repeat;
+    width: 768px;
+    height: 428px;
+  }
+
+  .lasttext h1 {
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 900;
+    width: 457px;
+    height: 88px;
+  }
+
+  .lasttext h2 {
+
+    width: 573px;
+    
+  }
+
+}
+
+   @media screen and (min-width: 1000px ){
+
+
+    .box {
+      width: 1440px;
+      height: 1895px;
+    } 
+    
+    .circle {
+      margin-left: 535px;
+      position: relative;
+      top: 42px;
+      
+     
+    }
+
+    .ciclee {
+      position: relative;
+      top: 20px;
+    }
+
+    .photosecond {
+      object-fit: cover;
+      width: 390px;
+      height: 300px;
+      object-position: 0px 0px;
+    }
+
+    .responsivephotos {
+      display: flex;
+  
+    }
+    .foto{
+      position: relative;
+      width: 110px;
+      height: 110px;
+    }
+
+    .foto1 {
+      top: 324px;
+      left: 1078px;
+    }
+    
+    .foto2 {
+      top: 462px;
+      left: 980px;
+    }
+
+    .foto3 {
+      top: 379px;
+      left: 990px;
+    }
+
+    .foto4 {
+      top: 517px;
+      left: 900px;
+    }
+
+    .foto5 {
+      top: 324px;
+      left: 890px;
+    }
+
+    .foto6 {
+      top: 462px;
+      left: 780px;
+    }
+
+    .meet {
+      position: relative;
+      top: 2px;
+    }
+
+    .midtexts {
+
+      position: relative;
+      top: 5px;
+      transform: translateY(-50%);
+    
+      
+    }
+
+    .midtexts h1 {
+      font-size: 64px;
+      line-height: 64px;
+      width: 445px;
+      margin-top: 70px;
+    }
+
+    .midtexts h2 {
+      font-size: 18px;
+      line-height: 26px;
+      width: 540px;
+      margin-top: 70px;
+      margin-bottom: 50px;
+    }
+
+    .buttonss {
+      position: relative;
+      left: 50%;
+      transform: translateX(-12%);
+    }
+
+    .fourphotos {
+      width: 1110px;
+      height: 242px;
+    }
+
+    .footer {
+      position: relative;
+      top: 1px;
+      transform: translateY(-100%);
+    }
+
+    .footer h2 {
+
+      width: 540px;
+      font-size: 18px;
+      line-height: 26px;
+    }
+
+    .buttontwo {
+      position: absolute;
+      z-index: 5;
+    
+    }
+
+    .background {
+      background-image: url(./assets/Bitmap\ \(5\).svg);
+      background-repeat: no-repeat;
+      position: relative;
+      bottom: 300px;
+      margin: 0;
+      z-index: 0;
+      width: 100%;
+      height: 308px;
+    }
+
+    .lastbutton {
+      width: 193px;
+      height: 58px;
+  
+      position: relative;
+      margin-top: 120px;
+
+     
+    
+    }
+
+    .lasttext h1 {
+      color: white;
+      font-weight: 900;
+      font-size: 32px;
+      text-align: center;
+      line-height: 36px;
+      position: relative;
+    
+      margin-bottom: 260px;
+    }
+    
+    .lasttext h2 {
+      
+      color: white;
+      position: relative;
+      font-size: 18px;
+      line-height: 26px;
+      text-align: center;
+      font-weight: 500;
+      color: #FAFAFA;
+      opacity: 0.9;
+      margin-bottom: 350px;
+      
+    }
+
+    .midtexts {
+      margin: 0;
+      
+    }
+
+    .lasttext {
+      display: flex;
+      position: relative;
+      flex-direction: row;
+    
+      
+
+    }
+    
+    
+  } 
